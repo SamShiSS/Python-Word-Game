@@ -1,4 +1,4 @@
-from ps4a import *
+from gameplay import *
 import time
 
 # Auto/computer play using a pre-defined algorithm
