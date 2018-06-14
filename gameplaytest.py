@@ -1,10 +1,8 @@
-from ps4a import *
+from gameplay import *
 
-#
 # Test code
-# You don't need to understand how this test code works (but feel free to look it over!)
 
-# To run these tests, simply run this file (open up in your IDE, then run the file as normal)
+# To run these tests, simply run this file
 
 def test_getWordScore():
     """
@@ -21,9 +19,6 @@ def test_getWordScore():
             failure=True
     if not failure:
         print("SUCCESS: test_getWordScore()")
-
-# end of test_getWordScore
-
 
 def test_updateHand():
     """
@@ -95,8 +90,6 @@ def test_updateHand():
         return # exit function
 
     print("SUCCESS: test_updateHand()")
-
-# end of test_updateHand
 
 def test_isValidWord(wordList):
     """
