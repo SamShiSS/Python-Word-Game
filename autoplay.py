@@ -1,19 +1,14 @@
 from ps4a import *
 import time
 
+# Auto/computer play using a pre-defined algorithm
 
-#
-#
 # Computer chooses a word
-#
-#
+
 def compChooseWord(hand, wordList, n):
     """
     Given a hand and a wordList, find the word that gives 
     the maximum value score, and return it.
-
-    This word should be calculated by considering all the words
-    in the wordList.
 
     If no words in the wordList can be made from the hand, return None.
 
@@ -95,11 +90,6 @@ def compPlayHand(hand, wordList, n):
     # Game is over (user entered a '.' or ran out of letters), so tell user the total score
     print('Total score: ' + str(totalScore) + ' points.')
 
-    
-#
-# Problem #6: Playing a game
-#
-#
 def playGame(wordList):
     """
     Allow the user to play an arbitrary number of hands.
